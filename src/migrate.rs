@@ -91,7 +91,21 @@ pub fn generate_migration(msg: String) {
     }
 }
 fn get_migrations() -> Result<Vec<String>,  String> {
-    let run = Command::new("ls").arg("-t").arg("migrations").output();
+    let run = Command::new("find")
+        .arg(".")
+        .arg("-type")
+        .arg("d")
+        .arg("-name")
+        .arg("migrations")
+        .arg("-not")
+        .arg("-path")
+        .arg("*/node_modules/*")
+        .arg("-exec")
+        .arg("sh")
+        .arg("-c")
+        .arg("cd '{}' && ls -t")
+        .arg(";")
+        .output();
     match run {
         Ok(output) => {
             if output.stderr.is_empty() {
