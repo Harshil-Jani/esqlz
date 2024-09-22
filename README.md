@@ -2,7 +2,7 @@
 
 Esqlz is a TUI to manage sequelize migrations easily. It is an extension wrapper of [Sequelize CLI](https://www.npmjs.com/package/sequelize-cli).
 
-Latest Version: `1.0.0` - [Release Notes](https://github.com/Harshil-Jani/esqlz/releases/tag/v1.0.0)
+Latest Version: `1.1.0` - [Release Notes](https://github.com/Harshil-Jani/esqlz/releases/tag/v1.1.0)
 
 ## Installation
 

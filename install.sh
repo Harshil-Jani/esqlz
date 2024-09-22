@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define variables
-VERSION="v1.0.0"
+VERSION="v1.1.0"
 BINARY_NAME="esqlz"
 GITHUB_URL_BASE="https://github.com/Harshil-Jani/esqlz/releases/download/$VERSION"
 

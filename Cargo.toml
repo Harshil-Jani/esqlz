@@ -1,13 +1,13 @@
 [package]
 name = "esqlz"
-version = "0.1.0"
+version = "1.1.0"
 edition = "2021"
 authors = ["Harshil Jani <harshiljani2002@gmail.com>"]
 license = "MIT"
 description = "TUI to manage sequelize migrations easily"
 readme = "README.md"
 repository = "https://github.com/Harshil-Jani/esqlz"
-keywords = ["migration", "sequelize", "tui", "cli", "rust", "javascript", "node"]
+keywords = ["migration", "sequelize-cli", "tui", "javascript"]
 categories = ["command-line-utilities"]
 
 [dependencies]
